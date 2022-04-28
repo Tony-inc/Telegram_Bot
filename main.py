@@ -4,7 +4,7 @@ from random import choice
 from api import Giphy
 
 giphy = Giphy()
-bot = telebot.TeleBot('5374635129:AAG9l18dW7vpsHpIV4V13lW51nBVaIu_JVI')
+bot = telebot.TeleBot('bot_api')
 sayings = ['I love you like a fat kid loves cake.', 'You want to know who I am in love with? Read the first word again.', 'I love you with all my belly. I would say heart, but my belly is bigger.']
 
 @bot.message_handler(commands=['start'])
